@@ -51,6 +51,18 @@ See the documentation to produce molecular network at GNPS [here](../featurebase
  - Import the bucket table (MS/MS only) exported from MetaboScape. Go to *File/Import/Table/File* and select the .csv file.
  
  ![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+ 
+4. Configure the Cytoscape style.
+ - For the *Label* properties. Select the column MOLECULAR_FORMULA and choose *Passthrough Mapping* as mapping type.
+ - For the *Size* properties. Select the column SAMPLE and choose *Continuous Mapping* as mapping type.
+ 
+5. Visualize the bucket table as a pie chart diagram. Click on the *Def.* box for the *Image/Chart* properties.
+ - Click on the *Charts* spreadsheet and select the group for visualization.
+ - Click on the option *Charts/option* spreadsheet and select the color-code for each group.
+
+6. Visualize the MS/MS spectral library annotations (make sure ChemViz2 is installed).
+ - Select the nodes with MS/MS spectral library annotation (column *LibraryID* in the Cytoscape node table).
+ - Right-click on the nodes and select */Apps/Cheminformatics/Show compounds table* or alternatively */Apps/Cheminformatics/Show structures for selected nodes* or */Apps/Cheminformatics/Paint structures for selected nodes*.
 
 For more information, see the documentation to perform visualization of the molecular networking on the data of the Coffee Project [here](../featurebasedmolecularnetworking-cytoscape.md).
 

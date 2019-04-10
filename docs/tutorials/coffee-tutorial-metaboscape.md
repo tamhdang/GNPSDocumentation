@@ -45,7 +45,7 @@ See the documentation to produce molecular network at GNPS [here](../featurebase
 1. Open Cytoscape 3.4 (or more recent version).
 2. Install the Cytoscape App ChemViz2 and download it [here](http://apps.cytoscape.org/apps/chemviz2).
 3. Import the molecular networking files downloaded from GNPS into Cytoscape.
-
+ - Import the network topology. Go to *File/Import/Network/File* and select the *.pairsinfo* file  in *networkedges_selfloop* folder. See documentation for more details here.
 
 For more information, see the documentation to perform visualization of the molecular networking on the data of the Coffee Project [here](../featurebasedmolecularnetworking-cytoscape.md).
 

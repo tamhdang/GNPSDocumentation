@@ -51,7 +51,8 @@ See the documentation to produce molecular network at GNPS [here](../featurebase
  - Import the bucket table (MS/MS only) exported from MetaboScape. Go to *File/Import/Table/File* and select the .csv file.
  
 #### Import the molecular network topology
- ![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
  
 #### Node table import interface
 

@@ -50,24 +50,50 @@ See the documentation to produce molecular network at GNPS [here](../featurebase
  - Import the MS/MS spectral library annotation table. Go to *File/Import/Table/File* and select the .tsv file in *result_specnets_DB folder*.
  - Import the bucket table (MS/MS only) exported from MetaboScape. Go to *File/Import/Table/File* and select the .csv file.
  
-#### Import the molecular network topology
+#### Molecular network topology import
 
 ![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
  
 #### Node table import interface
 
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
  
 4. Configure the Cytoscape style.
  - For the *Label* properties. Select the column MOLECULAR_FORMULA and choose *Passthrough Mapping* as mapping type.
  - For the *Size* properties. Select the column SAMPLE and choose *Continuous Mapping* as mapping type.
+
+#### Molecular network style configuration
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
  
 5. Visualize the bucket table as a pie chart diagram. Click on the *Def.* box for the *Image/Chart* properties.
  - Click on the *Charts* spreadsheet and select the group for visualization.
  - Click on the option *Charts/option* spreadsheet and select the color-code for each group.
+ 
+#### Pie chart configuration (data in *Image/Chart* properties)
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+
+#### Pie chart configuration (options in *Image/Chart* properties)
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
 
 6. Visualize the MS/MS spectral library annotations (make sure ChemViz2 is installed).
  - Select the nodes with MS/MS spectral library annotation (column *LibraryID* in the Cytoscape node table).
  - Right-click on the nodes and select */Apps/Cheminformatics/Show compounds table* or alternatively */Apps/Cheminformatics/Show structures for selected nodes* or */Apps/Cheminformatics/Paint structures for selected nodes*.
+ 
+#### Molecular networks visualization with molecular formula annotation (node name)
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+
+#### View of compounds structures for spectral library MS/MS annotation in the molecular network
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+
+#### Molecular network with MS/MS spectral annotation
+
+![img](img/metaboscapeexportforgnps/Metabo_2.PNG)
+
 
 For more information, see the documentation to perform visualization of the molecular networking on the data of the Coffee Project [here](../featurebasedmolecularnetworking-cytoscape.md).
 

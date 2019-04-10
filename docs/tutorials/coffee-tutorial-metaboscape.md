@@ -38,7 +38,7 @@ Refer to the detailed step-by-step procedure to run Metaboscape [here](../featur
 
 ## Run GNPS
 
-See the documentation to produce molecular network at GNPS with the output of the Coffee Project [here](../featurebasedmolecularnetworking.md).
+See the documentation to produce molecular network at GNPS [here](../featurebasedmolecularnetworking.md).
 
 ## Run Cytoscape for Visualization of Molecular Networks
 

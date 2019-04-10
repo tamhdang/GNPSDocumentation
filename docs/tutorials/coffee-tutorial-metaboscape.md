@@ -40,7 +40,12 @@ Refer to the detailed step-by-step procedure to run Metaboscape [here](../featur
 
 See the documentation to produce molecular network at GNPS with the output of the Coffee Project [here](../featurebasedmolecularnetworking.md).
 
-## Run Cytoscape
+## Run Cytoscape for Visualization of Molecular Networks
 
-See the documentation to perform visualization of the molecular networking on the data of the Coffee Project [here](../featurebasedmolecularnetworking-cytoscape.md).
+1. Open Cytoscape 3.4 (or more recent version).
+2. Install the Cytoscape App ChemViz2 and download it [here](http://apps.cytoscape.org/apps/chemviz2).
+3. Import the molecular networking files downloaded from GNPS into Cytoscape.
+
+
+For more information, see the documentation to perform visualization of the molecular networking on the data of the Coffee Project [here](../featurebasedmolecularnetworking-cytoscape.md).
 
